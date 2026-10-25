@@ -7,7 +7,7 @@
 - Ready to publish (every check incl. human, rights, destination): **0/30**
 - Random sample (seed `incubrix-audit-2026-10-25`): IG-01, IG-03, IG-04, IG-06, IG-07, IG-09, IG-10, LI-02, LI-03, LI-04, LI-07, LI-08, LI-09, LI-10, YT-01, YT-02, YT-03, YT-05, YT-06, YT-08
   - automated pass 20/20; every-check pass 0/20
-- Calendar SHA-256: `82ceb75d8342f5af4c0aef96c9daaa6c8eadd9c1d368fbc386f2028c97ac0258`
+- Calendar SHA-256: `82220971530e018d7ed67da922bea70703fa9574993b5568828a20e6698b96e3`
 
 ## Global checks
 - PASS: calendar header == schema columns (order) 
@@ -37,16 +37,16 @@
 | IG-08 | PASS | - | 2 items |
 | IG-09 | PASS | - | 2 items |
 | IG-10 | PASS | - | 2 items |
-| YT-01 | PASS | - | 6 items |
-| YT-02 | PASS | - | 5 items |
-| YT-03 | PASS | - | 5 items |
-| YT-04 | PASS | - | 5 items |
-| YT-05 | PASS | - | 5 items |
-| YT-06 | PASS | - | 5 items |
-| YT-07 | PASS | - | 5 items |
-| YT-08 | PASS | - | 5 items |
-| YT-09 | PASS | - | 5 items |
-| YT-10 | PASS | - | 5 items |
+| YT-01 | PASS | - | 4 items |
+| YT-02 | PASS | - | 3 items |
+| YT-03 | PASS | - | 3 items |
+| YT-04 | PASS | - | 3 items |
+| YT-05 | PASS | - | 3 items |
+| YT-06 | PASS | - | 3 items |
+| YT-07 | PASS | - | 3 items |
+| YT-08 | PASS | - | 3 items |
+| YT-09 | PASS | - | 3 items |
+| YT-10 | PASS | - | 3 items |
 
 Blocked items are the same for every asset unless noted: accuracy + usefulness human review; AI-disclosure decision
 

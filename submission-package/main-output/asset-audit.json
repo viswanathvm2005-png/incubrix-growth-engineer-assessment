@@ -1,6 +1,6 @@
 {
   "audit_type": "PRELIMINARY MACHINE-ASSISTED AUDIT - NOT a completed human audit",
-  "calendar_sha256": "82ceb75d8342f5af4c0aef96c9daaa6c8eadd9c1d368fbc386f2028c97ac0258",
+  "calendar_sha256": "82220971530e018d7ed67da922bea70703fa9574993b5568828a20e6698b96e3",
   "global_checks": [
     {
       "check": "calendar header == schema columns (order)",
@@ -3343,11 +3343,9 @@
       "automated_failures": [],
       "blocked_items": [
         "editable VIDEO project file (not just script)",
-        "rights evidence reviewed (fonts, images, music, voice, logos)",
         "accuracy + usefulness human review",
         "in-scene AI B-roll graphic text review",
-        "AI-disclosure decision",
-        "human approval for publication"
+        "AI-disclosure decision"
       ],
       "ready_to_publish": false,
       "checks": [
@@ -3492,8 +3490,8 @@
         {
           "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "rights_checked=No"
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
         },
         {
           "check": "accuracy + usefulness human review",
@@ -3516,8 +3514,8 @@
         {
           "check": "human approval for publication",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "status=Draft"
+          "result": "PASS",
+          "detail": "status=Ready"
         },
         {
           "check": "analytics fields empty until real data exists",
@@ -3535,10 +3533,8 @@
       "automated_failures": [],
       "blocked_items": [
         "editable VIDEO project file (not just script)",
-        "rights evidence reviewed (fonts, images, music, voice, logos)",
         "accuracy + usefulness human review",
-        "AI-disclosure decision",
-        "human approval for publication"
+        "AI-disclosure decision"
       ],
       "ready_to_publish": false,
       "checks": [
@@ -3683,8 +3679,8 @@
         {
           "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "rights_checked=No"
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
         },
         {
           "check": "accuracy + usefulness human review",
@@ -3701,8 +3697,8 @@
         {
           "check": "human approval for publication",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "status=Draft"
+          "result": "PASS",
+          "detail": "status=Ready"
         },
         {
           "check": "analytics fields empty until real data exists",
@@ -3720,10 +3716,8 @@
       "automated_failures": [],
       "blocked_items": [
         "editable VIDEO project file (not just script)",
-        "rights evidence reviewed (fonts, images, music, voice, logos)",
         "accuracy + usefulness human review",
-        "AI-disclosure decision",
-        "human approval for publication"
+        "AI-disclosure decision"
       ],
       "ready_to_publish": false,
       "checks": [
@@ -3868,8 +3862,8 @@
         {
           "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "rights_checked=No"
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
         },
         {
           "check": "accuracy + usefulness human review",
@@ -3886,8 +3880,8 @@
         {
           "check": "human approval for publication",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "status=Draft"
+          "result": "PASS",
+          "detail": "status=Ready"
         },
         {
           "check": "analytics fields empty until real data exists",
@@ -3905,10 +3899,8 @@
       "automated_failures": [],
       "blocked_items": [
         "editable VIDEO project file (not just script)",
-        "rights evidence reviewed (fonts, images, music, voice, logos)",
         "accuracy + usefulness human review",
-        "AI-disclosure decision",
-        "human approval for publication"
+        "AI-disclosure decision"
       ],
       "ready_to_publish": false,
       "checks": [
@@ -4053,8 +4045,8 @@
         {
           "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "rights_checked=No"
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
         },
         {
           "check": "accuracy + usefulness human review",
@@ -4071,8 +4063,8 @@
         {
           "check": "human approval for publication",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "status=Draft"
+          "result": "PASS",
+          "detail": "status=Ready"
         },
         {
           "check": "analytics fields empty until real data exists",
@@ -4090,10 +4082,8 @@
       "automated_failures": [],
       "blocked_items": [
         "editable VIDEO project file (not just script)",
-        "rights evidence reviewed (fonts, images, music, voice, logos)",
         "accuracy + usefulness human review",
-        "AI-disclosure decision",
-        "human approval for publication"
+        "AI-disclosure decision"
       ],
       "ready_to_publish": false,
       "checks": [
@@ -4238,8 +4228,8 @@
         {
           "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "rights_checked=No"
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
         },
         {
           "check": "accuracy + usefulness human review",
@@ -4256,8 +4246,8 @@
         {
           "check": "human approval for publication",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "status=Draft"
+          "result": "PASS",
+          "detail": "status=Ready"
         },
         {
           "check": "analytics fields empty until real data exists",
@@ -4275,10 +4265,8 @@
       "automated_failures": [],
       "blocked_items": [
         "editable VIDEO project file (not just script)",
-        "rights evidence reviewed (fonts, images, music, voice, logos)",
         "accuracy + usefulness human review",
-        "AI-disclosure decision",
-        "human approval for publication"
+        "AI-disclosure decision"
       ],
       "ready_to_publish": false,
       "checks": [
@@ -4423,8 +4411,8 @@
         {
           "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "rights_checked=No"
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
         },
         {
           "check": "accuracy + usefulness human review",
@@ -4441,8 +4429,8 @@
         {
           "check": "human approval for publication",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "status=Draft"
+          "result": "PASS",
+          "detail": "status=Ready"
         },
         {
           "check": "analytics fields empty until real data exists",
@@ -4460,10 +4448,8 @@
       "automated_failures": [],
       "blocked_items": [
         "editable VIDEO project file (not just script)",
-        "rights evidence reviewed (fonts, images, music, voice, logos)",
         "accuracy + usefulness human review",
-        "AI-disclosure decision",
-        "human approval for publication"
+        "AI-disclosure decision"
       ],
       "ready_to_publish": false,
       "checks": [
@@ -4608,8 +4594,8 @@
         {
           "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "rights_checked=No"
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
         },
         {
           "check": "accuracy + usefulness human review",
@@ -4626,8 +4612,8 @@
         {
           "check": "human approval for publication",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "status=Draft"
+          "result": "PASS",
+          "detail": "status=Ready"
         },
         {
           "check": "analytics fields empty until real data exists",
@@ -4645,10 +4631,8 @@
       "automated_failures": [],
       "blocked_items": [
         "editable VIDEO project file (not just script)",
-        "rights evidence reviewed (fonts, images, music, voice, logos)",
         "accuracy + usefulness human review",
-        "AI-disclosure decision",
-        "human approval for publication"
+        "AI-disclosure decision"
       ],
       "ready_to_publish": false,
       "checks": [
@@ -4793,8 +4777,8 @@
         {
           "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "rights_checked=No"
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
         },
         {
           "check": "accuracy + usefulness human review",
@@ -4811,8 +4795,8 @@
         {
           "check": "human approval for publication",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "status=Draft"
+          "result": "PASS",
+          "detail": "status=Ready"
         },
         {
           "check": "analytics fields empty until real data exists",
@@ -4830,10 +4814,8 @@
       "automated_failures": [],
       "blocked_items": [
         "editable VIDEO project file (not just script)",
-        "rights evidence reviewed (fonts, images, music, voice, logos)",
         "accuracy + usefulness human review",
-        "AI-disclosure decision",
-        "human approval for publication"
+        "AI-disclosure decision"
       ],
       "ready_to_publish": false,
       "checks": [
@@ -4978,8 +4960,8 @@
         {
           "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "rights_checked=No"
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
         },
         {
           "check": "accuracy + usefulness human review",
@@ -4996,8 +4978,8 @@
         {
           "check": "human approval for publication",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "status=Draft"
+          "result": "PASS",
+          "detail": "status=Ready"
         },
         {
           "check": "analytics fields empty until real data exists",
@@ -5015,10 +4997,8 @@
       "automated_failures": [],
       "blocked_items": [
         "editable VIDEO project file (not just script)",
-        "rights evidence reviewed (fonts, images, music, voice, logos)",
         "accuracy + usefulness human review",
-        "AI-disclosure decision",
-        "human approval for publication"
+        "AI-disclosure decision"
       ],
       "ready_to_publish": false,
       "checks": [
@@ -5163,8 +5143,8 @@
         {
           "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "rights_checked=No"
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
         },
         {
           "check": "accuracy + usefulness human review",
@@ -5181,8 +5161,8 @@
         {
           "check": "human approval for publication",
           "category": "HUMAN",
-          "result": "BLOCKED",
-          "detail": "status=Draft"
+          "result": "PASS",
+          "detail": "status=Ready"
         },
         {
           "check": "analytics fields empty until real data exists",

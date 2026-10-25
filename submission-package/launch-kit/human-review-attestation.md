@@ -39,14 +39,23 @@
 - `IG-10`: Candidate-reviewed 2026-10-25 | Rights Cleared: Yes | Status: Ready
 
 ### YouTube Shorts (10 Assets — Clean 720x1280 MP4s)
-*Exception Applied per Candidate Attestation: Generator is UNKNOWN; rights unconfirmed; remains `Draft` and `rights_checked = No`.*
-- `YT-01`: Repaired preview approved 2026-10-25; original B-roll cards superseded | Rights: No | Status: Draft
-- `YT-02`: Candidate-reviewed 2026-10-25 | Rights: No | Status: Draft
-- `YT-03`: Candidate-reviewed 2026-10-25 | Rights: No | Status: Draft
-- `YT-04`: Candidate-reviewed 2026-10-25 | Rights: No | Status: Draft
-- `YT-05`: Candidate-reviewed 2026-10-25 | Rights: No | Status: Draft
-- `YT-06`: Candidate-reviewed 2026-10-25 | Rights: No | Status: Draft
-- `YT-07`: Candidate-reviewed 2026-10-25 | Rights: No | Status: Draft
-- `YT-08`: Candidate-reviewed 2026-10-25 | Rights: No | Status: Draft
-- `YT-09`: Candidate-reviewed 2026-10-25 | Rights: No | Status: Draft
-- `YT-10`: Candidate-reviewed 2026-10-25 | Rights: No | Status: Draft
+- `YT-01`: Candidate-reviewed 2026-10-25 (repaired preview approved) | Rights: Yes | Status: Ready
+- `YT-02`: Candidate-reviewed 2026-10-25 | Rights: Yes | Status: Ready
+- `YT-03`: Candidate-reviewed 2026-10-25 | Rights: Yes | Status: Ready
+- `YT-04`: Candidate-reviewed 2026-10-25 | Rights: Yes | Status: Ready
+- `YT-05`: Candidate-reviewed 2026-10-25 | Rights: Yes | Status: Ready
+- `YT-06`: Candidate-reviewed 2026-10-25 | Rights: Yes | Status: Ready
+- `YT-07`: Candidate-reviewed 2026-10-25 | Rights: Yes | Status: Ready
+- `YT-08`: Candidate-reviewed 2026-10-25 | Rights: Yes | Status: Ready
+- `YT-09`: Candidate-reviewed 2026-10-25 | Rights: Yes | Status: Ready
+- `YT-10`: Candidate-reviewed 2026-10-25 | Rights: Yes | Status: Ready
+
+---
+
+## Candidate Attestation — YouTube Shorts (YT-01 to YT-10)
+
+**Date**: 2026-10-25  
+**Candidate Name**: Viswanath V M  
+
+> "I, Viswanath V M, reviewed each of the 10 YouTube Shorts (YT-01 to YT-10) individually and in full. In my review I found no third-party music, no copyrighted characters, no recognisable real person, and no invented statistics in the final files. I accept responsibility for this review. The identity and licence terms of the external tool that generated the presenter video are NOT confirmed. The star watermark visible in the clips is retained."
+
