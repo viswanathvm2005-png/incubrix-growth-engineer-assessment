@@ -1,0 +1,54 @@
+# Configuration for `py -3.12 -m engine pipeline`.
+# No secrets belong in this file. API keys, if ever used, come from .env.
+schema_path: config/workbook-schema.json
+similarity_threshold: 0.85        # difflib ratio on normalized hook+caption; >= this is a duplicate
+ledger_path: data/pipeline-ledger.json
+max_attempts_per_batch: 2         # one retry on provider failure
+speaking_words_per_second: 2.5    # used only to ESTIMATE video length from the script
+
+# Platforms the pipeline generates for. `workbook_platform` / `workbook_format`
+# must match the allowed values in config/workbook-schema.json.
+platforms:
+  linkedin:
+    workbook_platform: LinkedIn
+    workbook_format: Carousel
+    brief_platform: linkedin
+    brief_format: carousel
+    max_hook_chars: 150
+    max_caption_chars: 3000
+    default_hashtags: ["#ContentStrategy", "#CreatorWorkflow", "#ContentMarketing"]
+  instagram:
+    workbook_platform: Instagram
+    workbook_format: Carousel
+    brief_platform: instagram
+    brief_format: carousel
+    max_hook_chars: 125
+    max_caption_chars: 2200
+    default_hashtags: ["#ContentCreation", "#CreatorTips", "#ContentPlanning"]
+  youtube_shorts:
+    workbook_platform: YouTube Shorts
+    workbook_format: Short video
+    brief_platform: youtube
+    brief_format: short_video
+    max_hook_chars: 100
+    max_caption_chars: 5000
+    default_hashtags: ["#Shorts", "#CreatorTips", "#ContentCreation"]
+    video_seconds: 30
+    aspect_ratio: "9:16"
+    max_video_seconds: 60
+
+# Brand checks. A draft is rejected if it contains any banned phrase.
+# Draft hashtags default to the platform list above when the provider returns none.
+brand:
+  banned_phrases:
+    - guaranteed
+    - "#1"
+    - best in the world
+    - overnight success
+    - go viral
+    - 10x
+    - game-changer
+    - revolutionary
+    - risk-free
+  require_cta: true
+  require_hook: true

@@ -1,0 +1,92 @@
+INCUBRIX PRIVATE LIMITED
+Email: contact@incubrix.com | Web: www.incubrix.com
+2027 GRADUATE HIRING | GROWTH ENGINEER ROLE
+OPTION 2: SOCIAL MEDIA MARKETING AND CONTENT ENGINE
+Seven-day individual assessment | Option 2 of 4 | Social media marketing and content creation
+Goal: Build IncuBrix's social growth engine: a clear strategy, 30 ready-to-publish posts, and an AI-powered workflow that turns 
+any single input into a week of platform-ready content. IncuBrix should be able to start posting on day one and keep posting 
+every week without extra effort.
+1. What you must deliver
+Part Required outcome
+Product and market 
+insight
+Use the product. Submit 5 observations and the 3 biggest social media opportunities. Audit IncuBrix's current 
+accounts and 5 competitor or peer accounts, using real numbers.
+Strategy Target audience, at least 3 platforms and why, 4 to 6 content pillars, brand voice rules, posting frequency, and how social activity turns into sign-ups.
+30 ready-to-publish 
+assets
+Across at least 3 platforms, including at least 10 short videos (60 seconds or less) and 5 carousels or 
+graphics. Each one has a hook, caption, hashtags, call to action, tracking link and editable source files.
+Content engine A repeatable workflow that turns one long input (blog, podcast, demo or webinar) into at least 10 platform-specific assets with brand checks and a scheduler-ready export, in under 30 minutes.
+Real-audience test Either publish at least 10 assets over at least 5 days on accounts you own and report real results, or run a preference test with at least 20 people from the target audience.
+Launch kit 30-day calendar, daily workflow, owners, tools, optional paid-boost budget, and targets for reach, engagement rate, clicks and sign-ups.
+2. Audience and platforms
+• Audience: creators (podcasters, YouTubers, expert-led creators) and the people who help them (editors, small content 
+teams), mainly in the United States, Canada, United Kingdom, Ireland, Australia, New Zealand and Singapore.
+• Platforms: choose at least 3 from LinkedIn, Instagram, YouTube Shorts, TikTok, X, Threads, Facebook and Reddit, and 
+explain why they fit this audience.
+• Only claim product features you have seen working in the product. Never invent numbers, testimonials or customer names.
+3. When an asset counts as ready
+An asset counts only when it passes every check below.
+Check Simple requirement
+On-brand and accurate Follows your voice rules; every product claim is something you saw working in the product.
+Platform-native Right format, length, aspect ratio and style for that platform, with a strong hook in the first line or first 2 seconds.
+Useful Teaches, shows or proves something a creator cares about. Not generic promotion.
+Rights-safe Licensed music, images and fonts; no copyrighted characters; no one's face, voice or work without consent; AI-generated media labelled where a platform requires it.
+Measurable Has a tracking link (UTM) and a target metric.
+Ready to publish Final file, caption and scheduled slot exist. IncuBrix needs no rework.
+Minimum result: 30 ready assets on at least 3 platforms, including at least 10 videos; at least 85% of IncuBrix's 20-asset random 
+audit passes every check; 0 rights issues; the engine produces at least 10 assets from a new input during the live review; and the real-
+audience test is completed and reported honestly.
+Confidential | IncuBrix Private Limited | Growth Engineer assessment | Page 1
+INCUBRIX PRIVATE LIMITED
+Email: contact@incubrix.com | Web: www.incubrix.com
+SUBMISSION AND EVALUATION
+4. Submit these five items
+Item What to submit
+1. Submission Workbook Complete the Excel workbook for your option. Yellow cells are your inputs; green cells calculate. Fill in the Self-check tab with a link to evidence for every claim.
+2. Main output A content folder with every final asset and its source file, plus calendar.csv (one row per asset, same columns as the workbook).
+3. Engine Private repository or shared folder with your code or workflow, configuration, tests and a README with one clear run command. Do not include passwords or secret keys.
+4. Launch kit One document IncuBrix can act on next Monday: step-by-step plan, owners, tools, budget, targets and risks. Nothing should need rework.
+5. Two short videos Unedited. (a) Product walkthrough, up to 5 minutes. (b) Technical demo, up to 8 minutes: one normal run, a refresh on new input, and recovery from one simple failure.
+5. How IncuBrix evaluates
+Area Points What full marks look like
+Product and market insight 10 Specific observations backed by evidence, and growth opportunities IncuBrix can act on.
+Content and strategy quality 35 Assets have strong hooks and are ready to post (15), strategy fits the audience and platforms (10), and the real-audience test shows honest, useful results (10).
+Automation and scale 20 Another person can run your engine from the README. It refreshes, avoids duplicates, logs errors and shows runtime and cost at scale.
+Launch readiness 10 IncuBrix could start next Monday from your launch kit with no rework: clear steps, owners, budget and targets.
+Live review 25 You trace random items back to evidence, run your engine on a new input we give you, and explain your decisions honestly.
+Final result: below 65 = not selected | 65-74 = hold | 75-84 = strong hire | 85+ = exceptional hire, only when all 
+exceptional requirements also pass.
+6. How we check your work
+• IncuBrix recalculates every number from your files. Totals typed into the workbook are not official.
+• We pick 20 assets at random from your main output (you cannot choose or replace them) and check each one against the 
+quality bar.
+• We run your engine ourselves, using only your README.
+• Live review (45 minutes): you trace 5 random assets back to their evidence, run your engine on a small new input we give 
+you, and explain one decision you would change.
+• A growth reviewer and an engineering reviewer score separately. Any change to a score must point to evidence.
+7. Exceptional result
+• 60 ready assets, including at least 20 videos, with at least 90% passing our audit.
+• The real-audience test beats a stated, sourced benchmark for engagement or preference.
+• The engine produces a full week (at least 20 assets) from one input in under 30 minutes, with cost documented.
+• A creator-collaboration or user-generated content format that is ready to run.
+8. Tools and integrity rules
+• Use any AI tool, data source or service, free or paid. List them all in the workbook. No paid tool is required, and IncuBrix 
+does not refund costs unless agreed in writing first.
+• Work on your own. Disclose any manual work and where AI helped.
+• Publish only on accounts you own, and never present them as official IncuBrix accounts. Do not contact creators or 
+brands. Do not buy followers or engagement.
+• No fake, bought or guessed data, contacts, followers, engagement or results. Do not scrape against a site's terms, bypass 
+logins or use private or leaked data.
+• Follow privacy and marketing laws (for example India's DPDP Act, GDPR and CAN-SPAM) and every platform's rules.
+Confidential | IncuBrix Private Limited | Growth Engineer assessment | Page 2
+INCUBRIX PRIVATE LIMITED
+Email: contact@incubrix.com | Web: www.incubrix.com
+• Made-up evidence, or being unable to explain and rerun your own work, disqualifies the submission.
+• If a product feature or source is unavailable, record it with the date, time and evidence. You are not expected to work 
+around restrictions.
+Final check: Before submitting, confirm: 5 observations, 3 opportunities, account audit, strategy, 30 ready assets with at least 10 
+videos, content engine, real-audience test results, launch kit, completed workbook, calendar.csv, README, repository access and 
+both video links.
+Confidential | IncuBrix Private Limited | Growth Engineer assessment | Page 3

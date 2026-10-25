@@ -1,0 +1,12 @@
+participant_id,consent,role,region,experience,hook_1_rating,hook_2_rating,picked_hook,preferred_format,feedback
+P01,Yes,Editor or someone who helps creators,India,Less than 1 year,4,4,Hook 2,Short video (under 60 seconds),none
+P02,Yes,"Creator (podcaster, YouTuber, expert-led creator)",United Kingdom,1-3 years,3,5,Hook 1,Swipe carousel (LinkedIn or Instagram),none
+P03,Yes,"Creator (podcaster, YouTuber, expert-led creator)",United States,More than 3 years,4,5,Hook 2,Text-only post,none
+P04,Yes,"Creator (podcaster, YouTuber, expert-led creator)",India,1-3 years,3,3,Hook 1,Short video (under 60 seconds),none
+P05,Yes,Editor or someone who helps creators,India,Less than 1 year,4,2,Hook 1,Short video (under 60 seconds),none
+P06,Yes,Editor or someone who helps creators,India,Less than 1 year,4,3,Hook 1,Short video (under 60 seconds),none
+P07,Yes,Editor or someone who helps creators,India,1-3 years,3,1,Hook 2,Short video (under 60 seconds),none
+P08,Yes,Part of a small content team,India,Less than 1 year,3,2,Hook 2,Short video (under 60 seconds),none
+P09,Yes,Part of a small content team,India,Less than 1 year,4,4,Hook 1,Swipe carousel (LinkedIn or Instagram),none
+P10,Yes,Part of a small content team,India,Less than 1 year,4,3,Hook 1,Short video (under 60 seconds),none
+P11,Yes,Editor or someone who helps creators,India,Less than 1 year,4,5,Hook 1,Short video (under 60 seconds),none

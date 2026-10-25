@@ -1,0 +1,5196 @@
+{
+  "audit_type": "PRELIMINARY MACHINE-ASSISTED AUDIT - NOT a completed human audit",
+  "calendar_sha256": "82ceb75d8342f5af4c0aef96c9daaa6c8eadd9c1d368fbc386f2028c97ac0258",
+  "global_checks": [
+    {
+      "check": "calendar header == schema columns (order)",
+      "category": "AUTOMATED",
+      "result": "PASS"
+    },
+    {
+      "check": "calendar header == official workbook 02_ASSETS row 4",
+      "category": "AUTOMATED",
+      "result": "PASS"
+    }
+  ],
+  "totals": {
+    "assets": 30,
+    "by_platform": {
+      "Instagram": 10,
+      "LinkedIn": 10,
+      "YouTube Shorts": 10
+    },
+    "short_videos": 10,
+    "carousels_or_graphics": 20,
+    "automated_pass": 30,
+    "ready_to_publish": 0
+  },
+  "random_sample": {
+    "method": "random.Random(seed).sample over sorted asset_ids (unstratified)",
+    "seed": "incubrix-audit-2026-10-25",
+    "asset_ids": [
+      "IG-01",
+      "IG-03",
+      "IG-04",
+      "IG-06",
+      "IG-07",
+      "IG-09",
+      "IG-10",
+      "LI-02",
+      "LI-03",
+      "LI-04",
+      "LI-07",
+      "LI-08",
+      "LI-09",
+      "LI-10",
+      "YT-01",
+      "YT-02",
+      "YT-03",
+      "YT-05",
+      "YT-06",
+      "YT-08"
+    ],
+    "automated_pass_rate": "20/20",
+    "pass_every_check_incl_human_and_candidate": "0/20",
+    "note": "The official audit selects its own random 20; this is a self-check only."
+  },
+  "assets": [
+    {
+      "asset_id": "LI-01",
+      "platform": "LinkedIn",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 59/150, caption 354/3000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1080)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-01-carousel/LI-01-content-workflow-editor.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-01-carousel/LI-01-content-workflow-editor.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.38 vs IG-08"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=linkedin&utm_medium=org"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/revised-drafts/LI-01-weekly-workflow-for-creators.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless browser "
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "LI-02",
+      "platform": "LinkedIn",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 42/150, caption 373/3000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1080)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-02-repurpose-source/LI-02-repurpose-source-editor.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-02-repurpose-source/LI-02-repurpose-source-editor.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.51 vs IG-02"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=linkedin&utm_medium=org"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/revised-drafts/LI-02-repurpose-one-podcast-episode.m"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless browser "
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "LI-03",
+      "platform": "LinkedIn",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 64/150, caption 370/3000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(952, 1190)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-03-write-better-hooks/LI-03-write-better-hooks-editor.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-03-write-better-hooks/LI-03-write-better-hooks-editor.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.31 vs IG-03"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=linkedin&utm_medium=org"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/revised-drafts/LI-03-write-clearer-creator-hooks.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless browser "
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "LI-04",
+      "platform": "LinkedIn",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 54/150, caption 396/3000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1080)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-04-practical-content-calendar/LI-04-practical-content-calendar-editor.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-04-practical-content-calendar/LI-04-practical-content-calendar-editor.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.35 vs IG-02"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=linkedin&utm_medium=org"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/revised-drafts/LI-04-realistic-content-calendar.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless browser "
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "LI-05",
+      "platform": "LinkedIn",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 40/150, caption 444/3000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1080)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-05-match-content-format-to-platform/LI-05-match-content-format-to-platform-editor.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-05-match-content-format-to-platform/LI-05-match-content-format-to-platform-editor.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.29 vs YT-04"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=linkedin&utm_medium=org"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/revised-drafts/LI-05-adapt-content-to-platform.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless browser "
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "LI-06",
+      "platform": "LinkedIn",
+      "format": "Graphic",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 78/150, caption 446/3000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1080)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-06-content-quality-checklist/LI-06-content-quality-checklist-editor.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-06-content-quality-checklist/LI-06-content-quality-checklist-editor.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.38 vs IG-05"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=linkedin&utm_medium=org"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/revised-drafts/LI-06-creator-content-quality-checkli"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless browser "
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "LI-07",
+      "platform": "LinkedIn",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 53/150, caption 457/3000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(952, 1190)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-07-repurpose-long-form/LI-07-repurpose-long-form-editor.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-07-repurpose-long-form/LI-07-repurpose-long-form-editor.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.36 vs IG-02"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=linkedin&utm_medium=org"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/revised-drafts/LI-07-turn-long-form-video-into-conte"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless browser "
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "LI-08",
+      "platform": "LinkedIn",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 62/150, caption 452/3000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(952, 1190)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-08-repeatable-content-workflow/LI-08-repeatable-content-workflow-editor.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-08-repeatable-content-workflow/LI-08-repeatable-content-workflow-editor.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.3 vs IG-04"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=linkedin&utm_medium=org"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/revised-drafts/LI-08-source-to-reviewed-content-work"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless browser "
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "LI-09",
+      "platform": "LinkedIn",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 52/150, caption 406/3000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(952, 1190)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-09-turn-questions-into-content/LI-09-turn-questions-into-content-editor.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-09-turn-questions-into-content/LI-09-turn-questions-into-content-editor.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.33 vs IG-01"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=linkedin&utm_medium=org"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/revised-drafts/LI-09-turn-audience-questions-into-co"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless browser "
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "LI-10",
+      "platform": "LinkedIn",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 39/150, caption 373/3000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1360, 1700)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-10-one-idea-short-video/LI-10-one-idea-short-video-editor-v2.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/LI-10-one-idea-short-video/LI-10-one-idea-short-video-editor-v2.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.33 vs YT-06"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=linkedin&utm_medium=org"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/revised-drafts/LI-10-one-idea-short-video.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless browser "
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "IG-01",
+      "platform": "Instagram",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "3 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 33/125, caption 218/2200"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1350)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-01/IG-01-slide-01.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-01/IG-01-slide-01.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.36 vs YT-08"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=instagram&utm_medium=or"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/IG-01-plan-a-content-week.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless Chrome P"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "IG-02",
+      "platform": "Instagram",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 35/125, caption 241/2200"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1350)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-02/IG-02-slide-01.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-02/IG-02-slide-01.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.56 vs YT-02"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=instagram&utm_medium=or"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/IG-02-repurpose-one-idea.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless Chrome P"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "IG-03",
+      "platform": "Instagram",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 34/125, caption 210/2200"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "6 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1350)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-03/IG-03-slide-01.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-03/IG-03-slide-01.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.45 vs YT-07"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=instagram&utm_medium=or"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/IG-03-improve-your-content-hook.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless Chrome P"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "IG-04",
+      "platform": "Instagram",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 31/125, caption 234/2200"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1350)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-04/IG-04-slide-01.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-04/IG-04-slide-01.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.38 vs YT-07"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=instagram&utm_medium=or"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/IG-04-simple-content-calendar.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless Chrome P"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "IG-05",
+      "platform": "Instagram",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 27/125, caption 211/2200"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1350)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-05/IG-05-slide-01.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-05/IG-05-slide-01.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.41 vs YT-05"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=instagram&utm_medium=or"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/IG-05-before-posting-quality-check.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless Chrome P"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "IG-06",
+      "platform": "Instagram",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 59/125, caption 226/2200"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1350)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-06-repurpose-long-source/IG-06-slide-01.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-06-repurpose-long-source/IG-06-slide-01.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.38 vs YT-06"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=instagram&utm_medium=or"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/IG-06-repurpose-a-long-source-video.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless Chrome P"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "IG-07",
+      "platform": "Instagram",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 91/125, caption 175/2200"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1350)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-07-caption-improvements/IG-07-slide-01.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-07-caption-improvements/IG-07-slide-01.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.41 vs YT-08"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=instagram&utm_medium=or"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/IG-07-three-caption-improvements.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless Chrome P"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "IG-08",
+      "platform": "Instagram",
+      "format": "Carousel",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 72/125, caption 203/2200"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1350)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-08-content-workflow/IG-08-slide-01.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-08-content-workflow/IG-08-slide-01.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.35 vs YT-01"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=instagram&utm_medium=or"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/IG-08-repeatable-content-workflow.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless Chrome P"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "IG-09",
+      "platform": "Instagram",
+      "format": "Graphic",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 73/125, caption 184/2200"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1350)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-09-content-planning-checklist/IG-09-graphic-editor.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-09-content-planning-checklist/IG-09-graphic-editor.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.4 vs IG-05"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=instagram&utm_medium=or"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/IG-09-content-planning-checklist.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless Chrome P"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "IG-10",
+      "platform": "Instagram",
+      "format": "Graphic",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "accuracy + usefulness human review",
+        "AI-disclosure decision"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "3 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 81/125, caption 207/2200"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "image files are PNG with one consistent size",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "['(1080, 1350)']"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-10-clear-call-to-action/IG-10-graphic-editor.html"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/designs/IG-10-clear-call-to-action/IG-10-graphic-editor.html"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.43 vs YT-10"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=instagram&utm_medium=or"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/IG-10-write-a-clear-call-to-action.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "HTML/CSS slide editor (content/designs/) + Headless Chrome P"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "rights_checked=Yes"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "PASS",
+          "detail": "status=Ready"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "YT-01",
+      "platform": "YouTube Shorts",
+      "format": "Short video",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "editable VIDEO project file (not just script)",
+        "rights evidence reviewed (fonts, images, music, voice, logos)",
+        "accuracy + usefulness human review",
+        "in-scene AI B-roll graphic text review",
+        "AI-disclosure decision",
+        "human approval for publication"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 42/100, caption 210/5000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "video <= 60 s",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "24.00s"
+        },
+        {
+          "check": "video is 9:16",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "video resolution >= 720x1280",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-01-plan-a-content-week.md"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-01-plan-a-content-week.md"
+        },
+        {
+          "check": "editable VIDEO project file (not just script)",
+          "category": "CANDIDATE",
+          "result": "BLOCKED",
+          "detail": "only the script is editable-source; name the video editor/project file used"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.38 vs YT-02"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=youtube&utm_medium=orga"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-01-plan-a-content-week.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "Markdown script (content/drafts/youtube-shorts/) + FFmpeg/ff"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "rights_checked=No"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "in-scene AI B-roll graphic text review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "YT-01 clean original video contains AI-generated B-roll cards with '197 likes' (~8-14s) and garbled sub-labels ('Tuenday'/'Fifoday', ~19-24s) baked into the video stream; candidate must review/trim before marking Ready"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "status=Draft"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "YT-02",
+      "platform": "YouTube Shorts",
+      "format": "Short video",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "editable VIDEO project file (not just script)",
+        "rights evidence reviewed (fonts, images, music, voice, logos)",
+        "accuracy + usefulness human review",
+        "AI-disclosure decision",
+        "human approval for publication"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "5 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 39/100, caption 221/5000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "video <= 60 s",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "24.00s"
+        },
+        {
+          "check": "video is 9:16",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "video resolution >= 720x1280",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-02-repurpose-one-idea.md"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-02-repurpose-one-idea.md"
+        },
+        {
+          "check": "editable VIDEO project file (not just script)",
+          "category": "CANDIDATE",
+          "result": "BLOCKED",
+          "detail": "only the script is editable-source; name the video editor/project file used"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.56 vs IG-02"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=youtube&utm_medium=orga"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-02-repurpose-one-idea.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "Markdown script (content/drafts/youtube-shorts/) + FFmpeg/ff"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "rights_checked=No"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "status=Draft"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "YT-03",
+      "platform": "YouTube Shorts",
+      "format": "Short video",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "editable VIDEO project file (not just script)",
+        "rights evidence reviewed (fonts, images, music, voice, logos)",
+        "accuracy + usefulness human review",
+        "AI-disclosure decision",
+        "human approval for publication"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 43/100, caption 195/5000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "video <= 60 s",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "24.00s"
+        },
+        {
+          "check": "video is 9:16",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "video resolution >= 720x1280",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-03-improve-your-content-hook.md"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-03-improve-your-content-hook.md"
+        },
+        {
+          "check": "editable VIDEO project file (not just script)",
+          "category": "CANDIDATE",
+          "result": "BLOCKED",
+          "detail": "only the script is editable-source; name the video editor/project file used"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.39 vs IG-03"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=youtube&utm_medium=orga"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-03-improve-your-content-hoo"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "Markdown script (content/drafts/youtube-shorts/) + FFmpeg La"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "rights_checked=No"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "status=Draft"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "YT-04",
+      "platform": "YouTube Shorts",
+      "format": "Short video",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "editable VIDEO project file (not just script)",
+        "rights evidence reviewed (fonts, images, music, voice, logos)",
+        "accuracy + usefulness human review",
+        "AI-disclosure decision",
+        "human approval for publication"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 54/100, caption 188/5000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "video <= 60 s",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "18.01s"
+        },
+        {
+          "check": "video is 9:16",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "video resolution >= 720x1280",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-04-build-a-simple-content-calendar.md"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-04-build-a-simple-content-calendar.md"
+        },
+        {
+          "check": "editable VIDEO project file (not just script)",
+          "category": "CANDIDATE",
+          "result": "BLOCKED",
+          "detail": "only the script is editable-source; name the video editor/project file used"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.33 vs IG-04"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=youtube&utm_medium=orga"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-04-build-a-simple-content-c"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "Markdown script (content/drafts/youtube-shorts/) + FFmpeg/ff"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "rights_checked=No"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "status=Draft"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "YT-05",
+      "platform": "YouTube Shorts",
+      "format": "Short video",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "editable VIDEO project file (not just script)",
+        "rights evidence reviewed (fonts, images, music, voice, logos)",
+        "accuracy + usefulness human review",
+        "AI-disclosure decision",
+        "human approval for publication"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 42/100, caption 172/5000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "video <= 60 s",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "16.00s"
+        },
+        {
+          "check": "video is 9:16",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "video resolution >= 720x1280",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-05-pre-publish-quality-check.md"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-05-pre-publish-quality-check.md"
+        },
+        {
+          "check": "editable VIDEO project file (not just script)",
+          "category": "CANDIDATE",
+          "result": "BLOCKED",
+          "detail": "only the script is editable-source; name the video editor/project file used"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.44 vs IG-05"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=youtube&utm_medium=orga"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-05-pre-publish-quality-chec"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "Markdown script (content/drafts/youtube-shorts/) + FFmpeg/ff"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "rights_checked=No"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "status=Draft"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "YT-06",
+      "platform": "YouTube Shorts",
+      "format": "Short video",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "editable VIDEO project file (not just script)",
+        "rights evidence reviewed (fonts, images, music, voice, logos)",
+        "accuracy + usefulness human review",
+        "AI-disclosure decision",
+        "human approval for publication"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 33/100, caption 203/5000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "video <= 60 s",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "16.00s"
+        },
+        {
+          "check": "video is 9:16",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "video resolution >= 720x1280",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-06-repurpose-a-long-video.md"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-06-repurpose-a-long-video.md"
+        },
+        {
+          "check": "editable VIDEO project file (not just script)",
+          "category": "CANDIDATE",
+          "result": "BLOCKED",
+          "detail": "only the script is editable-source; name the video editor/project file used"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.4 vs IG-05"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=youtube&utm_medium=orga"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-06-repurpose-a-long-video.m"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "Markdown script (content/drafts/youtube-shorts/) + FFmpeg/ff"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "rights_checked=No"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "status=Draft"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "YT-07",
+      "platform": "YouTube Shorts",
+      "format": "Short video",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "editable VIDEO project file (not just script)",
+        "rights evidence reviewed (fonts, images, music, voice, logos)",
+        "accuracy + usefulness human review",
+        "AI-disclosure decision",
+        "human approval for publication"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 37/100, caption 195/5000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "video <= 60 s",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "16.00s"
+        },
+        {
+          "check": "video is 9:16",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "video resolution >= 720x1280",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-07-make-captions-clearer.md"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-07-make-captions-clearer.md"
+        },
+        {
+          "check": "editable VIDEO project file (not just script)",
+          "category": "CANDIDATE",
+          "result": "BLOCKED",
+          "detail": "only the script is editable-source; name the video editor/project file used"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.47 vs IG-03"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=youtube&utm_medium=orga"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-07-make-captions-clearer.md"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "Markdown script (content/drafts/youtube-shorts/) + FFmpeg/ff"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "rights_checked=No"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "status=Draft"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "YT-08",
+      "platform": "YouTube Shorts",
+      "format": "Short video",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "editable VIDEO project file (not just script)",
+        "rights evidence reviewed (fonts, images, music, voice, logos)",
+        "accuracy + usefulness human review",
+        "AI-disclosure decision",
+        "human approval for publication"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "3 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 50/100, caption 173/5000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "video <= 60 s",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "16.00s"
+        },
+        {
+          "check": "video is 9:16",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "video resolution >= 720x1280",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-08-build-a-repeatable-workflow.md"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-08-build-a-repeatable-workflow.md"
+        },
+        {
+          "check": "editable VIDEO project file (not just script)",
+          "category": "CANDIDATE",
+          "result": "BLOCKED",
+          "detail": "only the script is editable-source; name the video editor/project file used"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.4 vs IG-07"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=youtube&utm_medium=orga"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-08-build-a-repeatable-workf"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "Markdown script (content/drafts/youtube-shorts/) + FFmpeg/ff"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "rights_checked=No"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "status=Draft"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "YT-09",
+      "platform": "YouTube Shorts",
+      "format": "Short video",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "editable VIDEO project file (not just script)",
+        "rights evidence reviewed (fonts, images, music, voice, logos)",
+        "accuracy + usefulness human review",
+        "AI-disclosure decision",
+        "human approval for publication"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "4 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 42/100, caption 188/5000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "video <= 60 s",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "16.00s"
+        },
+        {
+          "check": "video is 9:16",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "video resolution >= 720x1280",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-09-turn-audience-questions-into-ideas.md"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-09-turn-audience-questions-into-ideas.md"
+        },
+        {
+          "check": "editable VIDEO project file (not just script)",
+          "category": "CANDIDATE",
+          "result": "BLOCKED",
+          "detail": "only the script is editable-source; name the video editor/project file used"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.39 vs YT-02"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=youtube&utm_medium=orga"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-09-turn-audience-questions-"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "Markdown script (content/drafts/youtube-shorts/) + FFmpeg/ff"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "rights_checked=No"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "status=Draft"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "asset_id": "YT-10",
+      "platform": "YouTube Shorts",
+      "format": "Short video",
+      "automated_pass": true,
+      "automated_failures": [],
+      "blocked_items": [
+        "editable VIDEO project file (not just script)",
+        "rights evidence reviewed (fonts, images, music, voice, logos)",
+        "accuracy + usefulness human review",
+        "AI-disclosure decision",
+        "human approval for publication"
+      ],
+      "ready_to_publish": false,
+      "checks": [
+        {
+          "check": "unique asset_id",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "platform/format allowed",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hook present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "caption present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "cta present, no placeholder",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "hashtags present",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "3 tags"
+        },
+        {
+          "check": "hook/caption within platform limits",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "hook 33/100, caption 181/5000"
+        },
+        {
+          "check": "final file(s) exist",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "1 listed"
+        },
+        {
+          "check": "video <= 60 s",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "16.00s"
+        },
+        {
+          "check": "video is 9:16",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "video resolution >= 720x1280",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "720x1280"
+        },
+        {
+          "check": "canonical editable source exists",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-10-write-a-clear-call-to-action.md"
+        },
+        {
+          "check": "calendar source_file_url is single canonical source",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-10-write-a-clear-call-to-action.md"
+        },
+        {
+          "check": "editable VIDEO project file (not just script)",
+          "category": "CANDIDATE",
+          "result": "BLOCKED",
+          "detail": "only the script is editable-source; name the video editor/project file used"
+        },
+        {
+          "check": "not a near-duplicate of another asset (<0.85)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": "max 0.33 vs IG-08"
+        },
+        {
+          "check": "no result/performance language",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "no product/feature mention in copy (claims need evidence if present)",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "planning blueprint matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "draft workbook utm_link matches calendar",
+          "category": "AUTOMATED",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "tracking destination approved",
+          "category": "CANDIDATE",
+          "result": "HUMAN-REVIEW",
+          "detail": "https://app.incubrix.com/?utm_source=youtube&utm_medium=orga"
+        },
+        {
+          "check": "source_input recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "content/drafts/youtube-shorts/YT-10-write-a-clear-call-to-ac"
+        },
+        {
+          "check": "tools_used recorded",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": "Markdown script (content/drafts/youtube-shorts/) + FFmpeg/ff"
+        },
+        {
+          "check": "scheduled_date set",
+          "category": "CANDIDATE",
+          "result": "PASS",
+          "detail": ""
+        },
+        {
+          "check": "rights evidence reviewed (fonts, images, music, voice, logos)",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "rights_checked=No"
+        },
+        {
+          "check": "accuracy + usefulness human review",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "no human review recorded"
+        },
+        {
+          "check": "AI-disclosure decision",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "ai_label_needed=Yes is a default, not a decision"
+        },
+        {
+          "check": "human approval for publication",
+          "category": "HUMAN",
+          "result": "BLOCKED",
+          "detail": "status=Draft"
+        },
+        {
+          "check": "analytics fields empty until real data exists",
+          "category": "ANALYTICS",
+          "result": "PASS",
+          "detail": ""
+        }
+      ]
+    }
+  ]
+}

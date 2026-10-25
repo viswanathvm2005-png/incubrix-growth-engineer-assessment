@@ -1,0 +1,33 @@
+# PROVISIONAL ONLY. Replace after the official workbook is available.
+schema_name: provisional_calendar
+schema_version: "0.1"
+status: "PROVISIONAL - awaiting official workbook headers"
+csv:
+  encoding: utf-8
+  delimiter: ","
+  one_row_per_asset: true
+columns:
+  - asset_id
+  - version
+  - platform
+  - format
+  - hook
+  - caption
+  - hashtags
+  - cta
+  - utm_url
+  - target_metric
+  - scheduled_slot
+  - final_file
+  - editable_source_file
+  - capability_ids
+  - usefulness_review
+  - accuracy_review
+  - rights_review
+  - readiness_status
+  - source_id
+  - created_by_run_id
+notes:
+  - Column names are provisional and not official company headers.
+  - Workbook formulas, colors, and sheet names are not defined here.
+  - Reconcile all columns against the actual workbook before final export.

@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IG-03 - Slide 6 - Improve Your Content Hook</title>
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 100%; min-height: 100%; }
+body {
+  background: #e8e9ed;
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f7f7fb;
+  padding: 18px;
+}
+.slide {
+  width: min(100%, 680px);
+  aspect-ratio: 4 / 5;
+  background: #17182b;
+  border: 1px solid #383954;
+  padding: 9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+.topline {
+  color: #b8b9ff;
+  font-size: clamp(12px, 2.2vw, 16px);
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.content { margin: auto 0; }
+h1 {
+  font-size: clamp(32px, 6.5vw, 54px);
+  line-height: 1.03;
+  letter-spacing: -1.4px;
+  margin: 0 0 24px;
+  overflow-wrap: anywhere;
+}
+p {
+  color: #e0e1f0;
+  font-size: clamp(18px, 3.3vw, 25px);
+  line-height: 1.42;
+  margin: 0;
+}
+.bottom {
+  border-top: 1px solid #4c4d69;
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: end;
+}
+.small {
+  color: #b8b9ff;
+  font-size: clamp(12px, 2vw, 15px);
+  line-height: 1.4;
+}
+.count {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.accent {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border: 1px solid #5d5e85;
+  border-radius: 50%;
+  right: -95px;
+  top: 20%;
+  pointer-events: none;
+}
+@media print {
+  @page { size: 1080px 1350px; margin: 0; }
+  body { padding: 0; background: #17182b; }
+  .slide { width: 1080px; height: 1350px; border: 0; }
+}
+</style>
+</head>
+<body>
+<main class="slide">
+<div class="accent"></div>
+<div class="topline">IG-03 / CREATOR NOTES</div>
+<section class="content">
+<h1>TRY IT YOURSELF</h1>
+<p>Name the audience situation, then preview one useful takeaway.</p>
+</section>
+<footer class="bottom">
+<div class="small">Rewrite one broad opening.</div>
+<div class="count">6 / 6</div>
+</footer>
+</main>
+</body>
+</html>

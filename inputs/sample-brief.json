@@ -1,0 +1,13 @@
+﻿{
+  "brief_id": "sample-brief-001",
+  "campaign_objective": "Demonstrate the content workflow using clearly labelled sample output",
+  "target_audience": "Assessment reviewer evaluating the prototype",
+  "platform": "linkedin",
+  "content_format": "static_post",
+  "source_ids": ["candidate-source-placeholder"],
+  "capability_ids": [],
+  "key_message": "This is a sample message used to test the content workflow",
+  "tone": "clear and professional",
+  "call_to_action": "Review the prototype output",
+  "avoid_topics": []
+}

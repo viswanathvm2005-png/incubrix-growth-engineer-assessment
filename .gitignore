@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+# Generated outputs (keep folder placeholder)
+outputs/*
+!outputs/.gitkeep
+# Local backups and temporary files
+backups/
+*.bak
+*.stage-*
+*~
+# Local backups and temporary files
+backups/
+*.bak
+*.stage-*
+*~
+
+# Large demo recordings (keep locally for submission)
+launch-kit/demos/*.mp4
+submission-package/videos/*.mp4
+
+# Unnecessary local files
+/README.md.backup-20261023-180240
+/assessment-option2-official-extracted.txt
+
+
+
+# --- added before first push ---
+~$*
+*.bak
+*.bak-*
+*.backup
+*.backup-*
+*.before-*
+*.stage-*
+data/*.sqlite3
+launch-kit/audience-test-raw-export*.csv
+content/exports/youtube-shorts-captioned/
+content/exports/youtube-shorts/_superseded/
+submission-package/workbook/
+launch-kit/demos/
+submission-package/videos/*.mp4

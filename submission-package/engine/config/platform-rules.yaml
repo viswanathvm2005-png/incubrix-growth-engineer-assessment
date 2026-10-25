@@ -1,0 +1,37 @@
+# Proposed initial rules; verify platform-specific requirements before publishing.
+schema_version: "1.0"
+status: "proposed"
+allowed_platforms:
+  - linkedin
+  - instagram
+  - youtube_shorts
+  - tiktok
+  - x
+  - threads
+  - facebook
+  - reddit
+allowed_formats: [text, graphic, carousel, video]
+short_video:
+  maximum_duration_seconds: 60
+  require_duration: true
+  require_aspect_ratio: true
+asset_readiness:
+  require_hook: true
+  require_caption: true
+  require_cta: true
+  require_utm_url: true
+  require_target_metric: true
+  require_scheduled_slot_before_ready: true
+  require_final_file_before_ready: true
+  require_editable_source_before_ready: true
+  require_product_claim_capability_ids: true
+human_reviews:
+  usefulness: required
+  accuracy: required
+  rights: required
+duplicate_detection:
+  stable_identity_components: [source_sha256, platform, angle]
+  normalized_text_fingerprint: required
+  similarity_threshold: "UNSET - select and test during implementation"
+  similar_assets_action: flag_for_review
+  intentional_revision_increments_version: true

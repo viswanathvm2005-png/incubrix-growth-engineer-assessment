@@ -1,0 +1,75 @@
+﻿{
+  "schema_version": 1,
+  "source": "IncuBrix Option 2 Submission Workbook",
+  "worksheet": "02_ASSETS",
+  "csv_filename": "calendar.csv",
+  "csv_encoding": "utf-8",
+  "csv_delimiter": ",",
+  "columns": [
+    "asset_id",
+    "platform",
+    "format",
+    "content_pillar",
+    "hook",
+    "caption",
+    "cta",
+    "utm_link",
+    "final_file_url",
+    "source_file_url",
+    "source_input",
+    "tools_used",
+    "rights_checked",
+    "ai_label_needed",
+    "scheduled_date",
+    "test_published_url",
+    "impressions_or_views",
+    "engagement_rate",
+    "clicks",
+    "status",
+    "notes",
+    "duplicate_check",
+    "completeness_check"
+  ],
+  "allowed_values": {
+    "platform": [
+      "LinkedIn",
+      "Instagram",
+      "YouTube Shorts",
+      "TikTok",
+      "X",
+      "Threads",
+      "Facebook",
+      "Reddit"
+    ],
+    "format": [
+      "Short video",
+      "Carousel",
+      "Graphic",
+      "Text post",
+      "Thread",
+      "Long video"
+    ],
+    "rights_checked": ["Yes", "No"],
+    "ai_label_needed": ["Yes", "No"],
+    "status": ["Ready", "Draft"]
+  },
+  "assessment_constraints": {
+    "minimum_ready_assets": 30,
+    "minimum_platforms": 3,
+    "minimum_short_videos": 10,
+    "maximum_short_video_seconds": 60,
+    "minimum_carousels_or_graphics": 5,
+    "maximum_random_audit_failure_rate": 0.15,
+    "maximum_rights_issues": 0,
+    "minimum_generated_assets_per_input": 10,
+    "maximum_generation_runtime_minutes": 30
+  },
+  "integrity_rules": [
+    "Do not invent product features or observations.",
+    "Do not invent publication metrics, audience-test results, costs, or runtime measurements.",
+    "Use UNKNOWN - needs input from candidate for unknown factual inputs.",
+    "A Draft is not a ready-to-publish asset.",
+    "Rights and content usefulness require human review.",
+    "Keep the official workbook unchanged."
+  ]
+}

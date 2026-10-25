@@ -1,0 +1,333 @@
+﻿<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LI-06 | Content Quality Checklist</title>
+<style>
+:root {
+  --ink: #172033;
+  --muted: #65718a;
+  --paper: #f4f6fb;
+  --accent: #6558d3;
+  --accent-light: #e8e5ff;
+  --line: #dfe4ef;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+}
+header {
+  padding: 22px 28px;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+header h1 { margin: 0 0 6px; font-size: 22px; }
+header p { margin: 0; color: var(--muted); font-size: 13px; }
+.status {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #fff0d8;
+  color: #815100;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .5px;
+}
+.layout {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: minmax(280px, 380px) minmax(320px, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+.panel {
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 20px;
+}
+.panel h2 { font-size: 16px; margin: 0 0 14px; }
+label {
+  display: block;
+  margin: 14px 0 6px;
+  font-size: 12px;
+  font-weight: 700;
+}
+input, textarea {
+  width: 100%;
+  border: 1px solid #cfd6e5;
+  border-radius: 8px;
+  padding: 10px;
+  font: inherit;
+  font-size: 14px;
+}
+textarea { min-height: 85px; resize: vertical; }
+button {
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 13px;
+  cursor: pointer;
+  font-weight: 700;
+  background: var(--accent-light);
+  color: #352b91;
+}
+button.primary { background: var(--accent); color: white; }
+button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 3px solid #aaa1ff;
+  outline-offset: 2px;
+}
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.slide-count { color: var(--muted); font-size: 12px; margin: 10px 0; }
+.preview-area { min-width: 0; }
+.slide {
+  width: 100%;
+  max-width: 680px;
+  aspect-ratio: 4 / 5;
+  margin: 0 auto;
+  padding: 9%;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #ffffff 0%, #f0efff 100%);
+  box-shadow: 0 14px 38px #202b4818;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.slide-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: clamp(9px, 1.5vw, 12px);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: var(--accent);
+}
+.slide-number { color: var(--muted); }
+.slide h2 {
+  font-size: clamp(25px, 4.4vw, 48px);
+  line-height: 1.08;
+  letter-spacing: -1.4px;
+  margin: 24px 0 16px;
+  overflow-wrap: anywhere;
+}
+.slide p {
+  font-size: clamp(14px, 2vw, 21px);
+  line-height: 1.48;
+  color: #49546b;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.slide-bottom {
+  border-top: 1px solid #dcdcf0;
+  padding-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  color: var(--muted);
+  font-size: clamp(9px, 1.3vw, 12px);
+}
+.hint { color: var(--muted); font-size: 12px; line-height: 1.5; }
+footer { text-align: center; padding: 12px 20px 28px; color: var(--muted); font-size: 12px; }
+@media (max-width: 760px) {
+  .layout { grid-template-columns: 1fr; }
+  .preview-area { grid-row: 1; }
+  .slide { max-width: 560px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>LI-06 - Use a Content Quality Checklist</h1>
+  <p>Local design workspace - Educational content - No publishing connection</p>
+  <span class="status">DRAFT - NOT APPROVED FOR PUBLICATION</span>
+</header>
+
+<main class="layout">
+  <section class="panel">
+    <h2>Edit the selected slide</h2>
+    <p class="hint">Changes update the preview immediately. Export the HTML to keep your editable source.</p>
+
+    <label for="slideSelect">Select slide</label>
+    <select id="slideSelect" style="width:100%;padding:10px;border:1px solid #cfd6e5;border-radius:8px">
+      <option value="0">1 - Cover</option>
+      <option value="1">2 - Start with one goal</option>
+      <option value="2">3 - Choose one audience problem</option>
+      <option value="3">4 - Create the core idea</option>
+      <option value="4">5 - Adapt for each platform</option>
+      <option value="5">6 - Review before sharing</option>
+    </select>
+
+    <label for="eyebrow">Small heading</label>
+    <input id="eyebrow" maxlength="70">
+
+    <label for="headline">Main heading</label>
+    <textarea id="headline" maxlength="180"></textarea>
+
+    <label for="bodyText">Supporting text</label>
+    <textarea id="bodyText" maxlength="450"></textarea>
+
+    <div class="controls">
+      <button id="previous" disabled>Previous</button>
+      <button id="next">Next -&gt;</button>
+    </div>
+    <div class="slide-count" id="slideCount">Slide 1 of 6</div>
+
+    <label for="footerText">Footer label</label>
+    <input id="footerText" maxlength="70" value="A PRACTICAL CONTENT CHECKLIST">
+
+    <div class="controls">
+      <button class="primary" id="exportHtml">Export editable HTML</button>
+      <button id="exportPng">Export slide PNG</button>
+    </div>
+    <p id="message" class="hint" role="status" aria-live="polite"></p>
+    <p class="hint">PNG export requires an internet connection to load the rendering library. If unavailable, use your browser's print-to-PDF or screenshot option. Review every slide before use.</p>
+  </section>
+
+  <section class="preview-area">
+    <div class="slide" id="slidePreview">
+      <div class="slide-top">
+        <span id="previewEyebrow">THE CONTENT WORKFLOW</span>
+        <span class="slide-number" id="previewNumber">01 / 06</span>
+      </div>
+      <div>
+        <h2 id="previewHeadline">Plan your content with purpose</h2>
+        <p id="previewBody">Build a repeatable content workflow.</p>
+      </div>
+      <div class="slide-bottom">
+        <span id="previewFooter">A PRACTICAL CONTENT CHECKLIST</span>
+        <span>EDUCATIONAL DRAFT</span>
+      </div>
+    </div>
+    <div class="controls" style="justify-content:center">
+      <button id="previewPrevious" disabled>Previous slide</button>
+      <button id="previewNext" class="primary">Next slide -&gt;</button>
+    </div>
+  </section>
+</main>
+<footer>Candidate working file - Product-specific claims are intentionally excluded - Do not publish before review</footer>
+
+<script>
+(() => {
+  const slides = [{"eyebrow":"THE CONTENT QUALITY CHECK","headline":"Good content deserves a final quality check.","body":"Review the message, evidence, design, and destination before sharing."},{"eyebrow":"CHECK 01 - PURPOSE","headline":"Is the main message clear?","body":"Make sure the post has one clear purpose and a useful takeaway."},{"eyebrow":"CHECK 02 - AUDIENCE","headline":"Does this help the intended reader?","body":"Use language and examples that suit the audience and their needs."},{"eyebrow":"CHECK 03 - ACCURACY","headline":"Can you support every factual claim?","body":"Check evidence, links, and wording. Remove claims you cannot verify."},{"eyebrow":"CHECK 04 - DESIGN AND RIGHTS","headline":"Is it readable, clear, and permitted?","body":"Review layout, contrast, spelling, and permission to use every asset."},{"eyebrow":"CHECK 05 - FINAL REVIEW","headline":"Check links and approval before sharing.","body":"Confirm the destination, platform requirements, and required human approval."}];
+
+  const $ = id => document.getElementById(id);
+  let current = 0;
+
+  function render() {
+    const slide = slides[current];
+    $("slideSelect").value = String(current);
+    $("eyebrow").value = slide.eyebrow;
+    $("headline").value = slide.headline;
+    $("bodyText").value = slide.body;
+    $("previewEyebrow").textContent = slide.eyebrow;
+    $("previewHeadline").textContent = slide.headline;
+    $("previewBody").textContent = slide.body;
+    $("previewNumber").textContent =
+      String(current + 1).padStart(2, "0") + " / " + String(slides.length).padStart(2, "0");
+    $("previewFooter").textContent = $("footerText").value;
+    $("slideCount").textContent = `Slide ${current + 1} of ${slides.length}`;
+    $("previous").disabled = current === 0;
+    $("previewPrevious").disabled = current === 0;
+    $("next").disabled = current === slides.length - 1;
+    $("previewNext").disabled = current === slides.length - 1;
+  }
+
+  function saveCurrent() {
+    slides[current].eyebrow = $("eyebrow").value;
+    slides[current].headline = $("headline").value;
+    slides[current].body = $("bodyText").value;
+    $("previewEyebrow").textContent = slides[current].eyebrow;
+    $("previewHeadline").textContent = slides[current].headline;
+    $("previewBody").textContent = slides[current].body;
+    $("previewFooter").textContent = $("footerText").value;
+  }
+
+  function go(index) {
+    saveCurrent();
+    current = Math.max(0, Math.min(slides.length - 1, index));
+    render();
+  }
+
+  $("slideSelect").addEventListener("change", e => go(Number(e.target.value)));
+  ["eyebrow", "headline", "bodyText", "footerText"].forEach(id => {
+    $(id).addEventListener("input", saveCurrent);
+  });
+  $("previous").addEventListener("click", () => go(current - 1));
+  $("previewPrevious").addEventListener("click", () => go(current - 1));
+  $("next").addEventListener("click", () => go(current + 1));
+  $("previewNext").addEventListener("click", () => go(current + 1));
+
+  function makeSource() {
+    saveCurrent();
+    const data = JSON.stringify(slides).replace(/</g, "\\u003c");
+    const footer = JSON.stringify($("footerText").value);
+    let source = "<!DOCTYPE html>\n" + document.documentElement.outerHTML;
+    source = source.replace(
+      /const slides = \[[\s\S]*?\];/,
+      "const slides = " + data + ";"
+    );
+    source = source.replace(
+      'value="A PRACTICAL CONTENT CHECKLIST"',
+      "value=" + footer
+    );
+    return source;
+  }
+
+  $("exportHtml").addEventListener("click", () => {
+    try {
+      const blob = new Blob([makeSource()], {type: "text/html;charset=utf-8"});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "LI-06-content-quality-checklist-editor.html";
+      a.click();
+      URL.revokeObjectURL(url);
+      $("message").textContent = "Editable HTML export requested. Keep it in your project source files.";
+    } catch (error) {
+      $("message").textContent = "Export failed: " + error.message;
+    }
+  });
+
+  $("exportPng").addEventListener("click", async () => {
+    try {
+      if (!window.html2canvas) {
+        const script = document.createElement("script");
+        script.src = "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js";
+        document.head.appendChild(script);
+        await new Promise((resolve, reject) => {
+          script.onload = resolve;
+          script.onerror = () => reject(new Error("Could not load PNG export library"));
+        });
+      }
+      saveCurrent();
+      const canvas = await window.html2canvas($("slidePreview"), {scale: 2, backgroundColor: null});
+      const a = document.createElement("a");
+      a.download = `LI-06-slide-${String(current + 1).padStart(2, "0")}.png`;
+      a.href = canvas.toDataURL("image/png");
+      a.click();
+      $("message").textContent = "PNG export requested for the current slide.";
+    } catch (error) {
+      $("message").textContent = error.message + ". The editable HTML remains available.";
+    }
+  });
+
+  render();
+})();
+</script>
+
+
+</body></html>
+

@@ -1,0 +1,102 @@
+asset_id,platform,element_type,element_name,source,licence_or_terms,rights_clearance_status,ai_generated,notes_and_recommendations
+LI-01,LinkedIn,font,Arial / Segoe UI,Windows OS System Font,Microsoft OS Font License (rasterised to PNG),PERMITTED,No,Safe for static image distribution
+LI-01,LinkedIn,external_library,html2canvas v1.4.1,cdnjs (Cloudflare CDN),MIT License,VERIFIED,No,Permitted for browser client export
+LI-01,LinkedIn,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+LI-01,LinkedIn,visual_media,Carousel Slide PNGs (6 slides),Authored HTML/CSS in content/designs/LI-01-carousel/,Candidate original creative work,VERIFIED,No,Full source code exists in repository
+LI-02,LinkedIn,font,Arial / Segoe UI,Windows OS System Font,Microsoft OS Font License (rasterised to PNG),PERMITTED,No,Safe for static image distribution
+LI-02,LinkedIn,external_library,html2canvas v1.4.1,cdnjs (Cloudflare CDN),MIT License,VERIFIED,No,Permitted for browser client export
+LI-02,LinkedIn,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+LI-02,LinkedIn,visual_media,Carousel Slide PNGs (6 slides),Authored HTML/CSS in content/designs/LI-02-repurpose-one-idea/,Candidate original creative work,VERIFIED,No,Full source code exists in repository
+LI-03,LinkedIn,font,Arial / Segoe UI,Windows OS System Font,Microsoft OS Font License (rasterised to PNG),PERMITTED,No,Safe for static image distribution
+LI-03,LinkedIn,external_library,html2canvas v1.4.1,cdnjs (Cloudflare CDN),MIT License,VERIFIED,No,Permitted for browser client export
+LI-03,LinkedIn,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+LI-03,LinkedIn,visual_media,Carousel Slide PNGs (6 slides),Authored HTML/CSS in content/designs/LI-03-write-better-hooks/,Candidate original creative work,VERIFIED,No,Full source code exists in repository
+LI-04,LinkedIn,font,Arial / Segoe UI,Windows OS System Font,Microsoft OS Font License (rasterised to PNG),PERMITTED,No,Safe for static image distribution
+LI-04,LinkedIn,external_library,html2canvas v1.4.1,cdnjs (Cloudflare CDN),MIT License,VERIFIED,No,Permitted for browser client export
+LI-04,LinkedIn,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+LI-04,LinkedIn,visual_media,Carousel Slide PNGs (5 slides),Authored HTML/CSS in content/designs/LI-04-practical-content-calendar/,Candidate original creative work,VERIFIED,No,Full source code exists in repository
+LI-05,LinkedIn,font,Arial / Segoe UI,Windows OS System Font,Microsoft OS Font License (rasterised to PNG),PERMITTED,No,Safe for static image distribution
+LI-05,LinkedIn,external_library,html2canvas v1.4.1,cdnjs (Cloudflare CDN),MIT License,VERIFIED,No,Permitted for browser client export
+LI-05,LinkedIn,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+LI-05,LinkedIn,visual_media,Carousel Slide PNGs (6 slides),Authored HTML/CSS in content/designs/LI-05-before-you-publish-checklist/,Candidate original creative work,VERIFIED,No,Full source code exists in repository
+LI-06,LinkedIn,font,Arial / Segoe UI,Windows OS System Font,Microsoft OS Font License (rasterised to PNG),PERMITTED,No,Safe for static image distribution
+LI-06,LinkedIn,external_library,html2canvas v1.4.1,cdnjs (Cloudflare CDN),MIT License,VERIFIED,No,Permitted for browser client export
+LI-06,LinkedIn,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+LI-06,LinkedIn,visual_media,Checklist Graphic + 6 Carousel Slides,Authored HTML/CSS in content/designs/LI-06-content-quality-checklist/,Candidate original creative work,VERIFIED,No,Export folder contains checklist PNG and carousel companion slides
+LI-07,LinkedIn,font,Arial / Segoe UI,Windows OS System Font,Microsoft OS Font License (rasterised to PNG),PERMITTED,No,Safe for static image distribution
+LI-07,LinkedIn,external_library,html2canvas v1.4.1,cdnjs (Cloudflare CDN),MIT License,VERIFIED,No,Permitted for browser client export
+LI-07,LinkedIn,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+LI-07,LinkedIn,visual_media,Carousel Slide PNGs (6 slides),Authored HTML/CSS in content/designs/LI-07-edit-your-captions/,Candidate original creative work,VERIFIED,No,Full source code exists in repository
+LI-08,LinkedIn,font,Arial / Segoe UI,Windows OS System Font,Microsoft OS Font License (rasterised to PNG),PERMITTED,No,Safe for static image distribution
+LI-08,LinkedIn,external_library,html2canvas v1.4.1,cdnjs (Cloudflare CDN),MIT License,VERIFIED,No,Permitted for browser client export
+LI-08,LinkedIn,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+LI-08,LinkedIn,visual_media,Carousel Slide PNGs (6 slides),Authored HTML/CSS in content/designs/LI-08-consistent-weekly-workflow/,Candidate original creative work,VERIFIED,No,Full source code exists in repository
+LI-09,LinkedIn,font,Arial / Segoe UI,Windows OS System Font,Microsoft OS Font License (rasterised to PNG),PERMITTED,No,Safe for static image distribution
+LI-09,LinkedIn,external_library,html2canvas v1.4.1,cdnjs (Cloudflare CDN),MIT License,VERIFIED,No,Permitted for browser client export
+LI-09,LinkedIn,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+LI-09,LinkedIn,visual_media,Carousel Slide PNGs (6 slides),Authored HTML/CSS in content/designs/LI-09-turn-questions-into-content/,Candidate original creative work,VERIFIED,No,Full source code exists in repository
+LI-10,LinkedIn,font,Arial / Segoe UI,Windows OS System Font,Microsoft OS Font License (rasterised to PNG),PERMITTED,No,Safe for static image distribution
+LI-10,LinkedIn,external_library,html2canvas v1.4.1,cdnjs (Cloudflare CDN),MIT License,VERIFIED,No,Permitted for browser client export
+LI-10,LinkedIn,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+LI-10,LinkedIn,visual_media,Carousel Slide PNGs (8 slides),Authored HTML/CSS in content/designs/LI-10-one-idea-short-video-v2/,Candidate original creative work,VERIFIED,No,Full source code exists in repository
+IG-01,Instagram,font,Arial / Helvetica,System Font,Standard OS System Font License,PERMITTED,No,Rendered via headless Chrome to 1080x1350 PNG
+IG-01,Instagram,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+IG-01,Instagram,visual_media,Carousel Slide PNGs (6 slides),Authored HTML/CSS in content/designs/IG-01/,Candidate original creative work,VERIFIED,No,Rendered via export-instagram.ps1
+IG-02,Instagram,font,Arial / Helvetica,System Font,Standard OS System Font License,PERMITTED,No,Rendered via headless Chrome to 1080x1350 PNG
+IG-02,Instagram,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+IG-02,Instagram,visual_media,Carousel Slide PNGs (5 slides),Authored HTML/CSS in content/designs/IG-02/,Candidate original creative work,VERIFIED,No,Rendered via export-instagram.ps1
+IG-03,Instagram,font,Arial / Helvetica,System Font,Standard OS System Font License,PERMITTED,No,Rendered via headless Chrome to 1080x1350 PNG
+IG-03,Instagram,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+IG-03,Instagram,visual_media,Carousel Slide PNGs (6 slides),Authored HTML/CSS in content/designs/IG-03/,Candidate original creative work,VERIFIED,No,Rendered via export-instagram.ps1
+IG-04,Instagram,font,Arial / Helvetica,System Font,Standard OS System Font License,PERMITTED,No,Rendered via headless Chrome to 1080x1350 PNG
+IG-04,Instagram,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+IG-04,Instagram,visual_media,Carousel Slide PNGs (5 slides),Authored HTML/CSS in content/designs/IG-04/,Candidate original creative work,VERIFIED,No,Rendered via export-instagram.ps1
+IG-05,Instagram,font,Arial / Helvetica,System Font,Standard OS System Font License,PERMITTED,No,Rendered via headless Chrome to 1080x1350 PNG
+IG-05,Instagram,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+IG-05,Instagram,visual_media,Carousel Slide PNGs (5 slides),Authored HTML/CSS in content/designs/IG-05/,Candidate original creative work,VERIFIED,No,Rendered via export-instagram.ps1
+IG-06,Instagram,font,Arial / Helvetica,System Font,Standard OS System Font License,PERMITTED,No,Rendered via headless Chrome to 1080x1350 PNG
+IG-06,Instagram,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+IG-06,Instagram,visual_media,Carousel Slide PNGs (5 slides),Authored HTML/CSS in content/designs/IG-06/,Candidate original creative work,VERIFIED,No,Rendered via export-instagram.ps1
+IG-07,Instagram,font,Arial / Helvetica,System Font,Standard OS System Font License,PERMITTED,No,Rendered via headless Chrome to 1080x1350 PNG
+IG-07,Instagram,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+IG-07,Instagram,visual_media,Carousel Slide PNGs (5 slides),Authored HTML/CSS in content/designs/IG-07/,Candidate original creative work,VERIFIED,No,Rendered via export-instagram.ps1
+IG-08,Instagram,font,Arial / Helvetica,System Font,Standard OS System Font License,PERMITTED,No,Rendered via headless Chrome to 1080x1350 PNG
+IG-08,Instagram,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+IG-08,Instagram,visual_media,Carousel Slide PNGs (5 slides),Authored HTML/CSS in content/designs/IG-08/,Candidate original creative work,VERIFIED,No,Rendered via export-instagram.ps1
+IG-09,Instagram,font,Arial / Helvetica,System Font,Standard OS System Font License,PERMITTED,No,Rendered via headless Chrome to 1080x1350 PNG
+IG-09,Instagram,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+IG-09,Instagram,visual_media,Graphic Post PNG (1 slide),Authored HTML/CSS in content/designs/IG-09/,Candidate original creative work,VERIFIED,No,Rendered via export-instagram.ps1
+IG-10,Instagram,font,Arial / Helvetica,System Font,Standard OS System Font License,PERMITTED,No,Rendered via headless Chrome to 1080x1350 PNG
+IG-10,Instagram,brand_logo,IncuBrix Logo / Wordmark,Candidate asset design,Permitted for IncuBrix assessment evaluation,UNCONFIRMED_FOR_COMMERCIAL,No,Requires IncuBrix company approval before external commercial campaign
+IG-10,Instagram,visual_media,Graphic Post PNG (1 slide),Authored HTML/CSS in content/designs/IG-10/,Candidate original creative work,VERIFIED,No,Rendered via export-instagram.ps1
+YT-01,YouTube Shorts,video_clip,AI Presenter Video Stream,External AI video generator (4-point star watermark visible),UNCONFIRMED,UNCONFIRMED,Yes,"External generator name UNCONFIRMED in repository/logs. Likeness rights unverified. Recommend removal/replacement of synthetic presenter or candidate must supply commercial licence. Set YouTube altered/synthetic disclosure to Yes."
+YT-01,YouTube Shorts,voice_track,AI Voiceover Track (AAC),External AI voice generator,UNCONFIRMED,UNCONFIRMED,Yes,Voice model licence unverified; candidate must document source
+YT-01,YouTube Shorts,music_track,Background audio stream,Unknown/embedded in video stream,UNCONFIRMED,UNCONFIRMED,No,Must confirm absence of copyrighted music
+YT-01,YouTube Shorts,b_roll_graphic,In-scene social mock & calendar,Generative AI video B-roll cards,UNCONFIRMED,UNCONFIRMED,Yes,"Contains invented '197 likes' and garbled 'Tuenday' calendar; MUST be trimmed/replaced prior to publication (repaired preview in outputs/yt01-repaired-preview/)"
+YT-02,YouTube Shorts,video_clip,AI Presenter Video Stream,External AI video generator (4-point star watermark visible),UNCONFIRMED,UNCONFIRMED,Yes,"External generator name UNCONFIRMED in repository/logs. Likeness rights unverified. Recommend removal/replacement of synthetic presenter or candidate must supply commercial licence. Set YouTube altered/synthetic disclosure to Yes."
+YT-02,YouTube Shorts,voice_track,AI Voiceover Track (AAC),External AI voice generator,UNCONFIRMED,UNCONFIRMED,Yes,Voice model licence unverified; candidate must document source
+YT-02,YouTube Shorts,music_track,Background audio stream,Unknown/embedded in video stream,UNCONFIRMED,UNCONFIRMED,No,Must confirm absence of copyrighted music
+YT-03,YouTube Shorts,video_clip,AI Presenter Video Stream,External AI video generator (4-point star watermark visible),UNCONFIRMED,UNCONFIRMED,Yes,"External generator name UNCONFIRMED in repository/logs. Likeness rights unverified. Recommend removal/replacement of synthetic presenter or candidate must supply commercial licence. Set YouTube altered/synthetic disclosure to Yes."
+YT-03,YouTube Shorts,voice_track,AI Voiceover Track (AAC),External AI voice generator,UNCONFIRMED,UNCONFIRMED,Yes,Voice model licence unverified; candidate must document source
+YT-03,YouTube Shorts,music_track,Background audio stream,Unknown/embedded in video stream,UNCONFIRMED,UNCONFIRMED,No,Must confirm absence of copyrighted music
+YT-04,YouTube Shorts,video_clip,AI Presenter Video Stream,External AI video generator (4-point star watermark visible),UNCONFIRMED,UNCONFIRMED,Yes,"External generator name UNCONFIRMED in repository/logs. Likeness rights unverified. Recommend removal/replacement of synthetic presenter or candidate must supply commercial licence. Set YouTube altered/synthetic disclosure to Yes."
+YT-04,YouTube Shorts,voice_track,AI Voiceover Track (AAC),External AI voice generator,UNCONFIRMED,UNCONFIRMED,Yes,Voice model licence unverified; candidate must document source
+YT-04,YouTube Shorts,music_track,Background audio stream,Unknown/embedded in video stream,UNCONFIRMED,UNCONFIRMED,No,Must confirm absence of copyrighted music
+YT-05,YouTube Shorts,video_clip,AI Presenter Video Stream,External AI video generator (4-point star watermark visible),UNCONFIRMED,UNCONFIRMED,Yes,"External generator name UNCONFIRMED in repository/logs. Likeness rights unverified. Recommend removal/replacement of synthetic presenter or candidate must supply commercial licence. Set YouTube altered/synthetic disclosure to Yes."
+YT-05,YouTube Shorts,voice_track,AI Voiceover Track (AAC),External AI voice generator,UNCONFIRMED,UNCONFIRMED,Yes,Voice model licence unverified; candidate must document source
+YT-05,YouTube Shorts,music_track,Background audio stream,Unknown/embedded in video stream,UNCONFIRMED,UNCONFIRMED,No,Must confirm absence of copyrighted music
+YT-06,YouTube Shorts,video_clip,AI Presenter Video Stream,External AI video generator (4-point star watermark visible),UNCONFIRMED,UNCONFIRMED,Yes,"External generator name UNCONFIRMED in repository/logs. Likeness rights unverified. Recommend removal/replacement of synthetic presenter or candidate must supply commercial licence. Set YouTube altered/synthetic disclosure to Yes."
+YT-06,YouTube Shorts,voice_track,AI Voiceover Track (AAC),External AI voice generator,UNCONFIRMED,UNCONFIRMED,Yes,Voice model licence unverified; candidate must document source
+YT-06,YouTube Shorts,music_track,Background audio stream,Unknown/embedded in video stream,UNCONFIRMED,UNCONFIRMED,No,Must confirm absence of copyrighted music
+YT-07,YouTube Shorts,video_clip,AI Presenter Video Stream,External AI video generator (4-point star watermark visible),UNCONFIRMED,UNCONFIRMED,Yes,"External generator name UNCONFIRMED in repository/logs. Likeness rights unverified. Recommend removal/replacement of synthetic presenter or candidate must supply commercial licence. Set YouTube altered/synthetic disclosure to Yes."
+YT-07,YouTube Shorts,voice_track,AI Voiceover Track (AAC),External AI voice generator,UNCONFIRMED,UNCONFIRMED,Yes,Voice model licence unverified; candidate must document source
+YT-07,YouTube Shorts,music_track,Background audio stream,Unknown/embedded in video stream,UNCONFIRMED,UNCONFIRMED,No,Must confirm absence of copyrighted music
+YT-08,YouTube Shorts,video_clip,AI Presenter Video Stream,External AI video generator (4-point star watermark visible),UNCONFIRMED,UNCONFIRMED,Yes,"External generator name UNCONFIRMED in repository/logs. Likeness rights unverified. Recommend removal/replacement of synthetic presenter or candidate must supply commercial licence. Set YouTube altered/synthetic disclosure to Yes."
+YT-08,YouTube Shorts,voice_track,AI Voiceover Track (AAC),External AI voice generator,UNCONFIRMED,UNCONFIRMED,Yes,Voice model licence unverified; candidate must document source
+YT-08,YouTube Shorts,music_track,Background audio stream,Unknown/embedded in video stream,UNCONFIRMED,UNCONFIRMED,No,Must confirm absence of copyrighted music
+YT-09,YouTube Shorts,video_clip,AI Presenter Video Stream,External AI video generator (4-point star watermark visible),UNCONFIRMED,UNCONFIRMED,Yes,"External generator name UNCONFIRMED in repository/logs. Likeness rights unverified. Recommend removal/replacement of synthetic presenter or candidate must supply commercial licence. Set YouTube altered/synthetic disclosure to Yes."
+YT-09,YouTube Shorts,voice_track,AI Voiceover Track (AAC),External AI voice generator,UNCONFIRMED,UNCONFIRMED,Yes,Voice model licence unverified; candidate must document source
+YT-09,YouTube Shorts,music_track,Background audio stream,Unknown/embedded in video stream,UNCONFIRMED,UNCONFIRMED,No,Must confirm absence of copyrighted music
+YT-10,YouTube Shorts,video_clip,AI Presenter Video Stream,External AI video generator (4-point star watermark visible),UNCONFIRMED,UNCONFIRMED,Yes,"External generator name UNCONFIRMED in repository/logs. Likeness rights unverified. Recommend removal/replacement of synthetic presenter or candidate must supply commercial licence. Set YouTube altered/synthetic disclosure to Yes."
+YT-10,YouTube Shorts,voice_track,AI Voiceover Track (AAC),External AI voice generator,UNCONFIRMED,UNCONFIRMED,Yes,Voice model licence unverified; candidate must document source
+YT-10,YouTube Shorts,music_track,Background audio stream,Unknown/embedded in video stream,UNCONFIRMED,UNCONFIRMED,No,Must confirm absence of copyrighted music
